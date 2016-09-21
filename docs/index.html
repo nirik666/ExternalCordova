@@ -1,1 +1,18 @@
-test
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+<script>
+document.addEventListener('deviceready', function(){
+    window.alert("deviceready");
+}, false);
+setTimeout(function(){
+    navigator.notification.alert("OK", function(){});
+}, 2000);
+</script>
+</html>
