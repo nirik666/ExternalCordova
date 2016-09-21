@@ -30,7 +30,7 @@
     <plugin name="cordova-plugin-statusbar" source="npm" spec="~2.1.2" />
     <plugin name="cordova-plugin-vibration" source="npm" spec="~2.1.0" />
     -->
-    <plugin spec="https://github.com/fastrde/phonegap-plugin-injectView.git" />
+    <plugin name="phonegap-plugin-injectView" source="npm" spec="~0.2.0" />
     <plugin name="cordova-plugin-file" source="npm" spec="~4.1.1" />
     <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1" />
     <icon src="icon.png" />
